@@ -1,10 +1,10 @@
-import ModeToggle from "@/components/mode-toggle";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen font-display">
+    <div className="pt-10 md:pt-20 lg:pt-32">
       {/* <ModeToggle /> */}
-      <p className="font-inter">Agents that do the work. Approvals that keep you safe.</p>
+      <Hero />
     </div>
   );
 }
