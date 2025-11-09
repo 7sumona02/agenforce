@@ -1,8 +1,11 @@
 import Container from '@/components/container'
 import Subheading from '@/components/subheading'
+import LandingImages from '@/components/landing-images'
 import Heading from './heading'
 import {Button} from '@/components/ui/button'
 import Link from 'next/link'
+import Image from 'next/image'
+import { cn } from '@/lib/utils'
 
 const Hero = () => {
   return (
@@ -16,6 +19,7 @@ const Hero = () => {
                 <Button className='shadow-brand'>Start your free trial</Button>
                 <Button variant='outline' asChild><Link href='#'>View role based demos</Link></Button>
             </div>
+            <LandingImages />
         </Container>
     </div>
   )
