@@ -4,8 +4,6 @@ import LandingImages from '@/components/landing-images'
 import Heading from './heading'
 import {Button} from '@/components/ui/button'
 import Link from 'next/link'
-import Image from 'next/image'
-import { cn } from '@/lib/utils'
 
 const Hero = () => {
   return (
