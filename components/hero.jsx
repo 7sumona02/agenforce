@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils'
 
 const Hero = () => {
   return (
-    <div>
+    <section className='h-screen overflow-hidden'>
         <Container>
             <Heading tag='h1'>Agents that do the work <br /> Approvals that keep you safe.</Heading>
             <Subheading className='py-8'>
@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
             <LandingImages />
         </Container>
-    </div>
+    </section>
   )
 }
 
